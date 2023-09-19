@@ -1,19 +1,21 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: rgba(221, 218, 218, 0.973);
 }
-header h1{
-    display: inline-block;
-    text-align:justify;
-    margin: 0;
+header span{
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 46px;
+    
     
     
 }
 header{
     margin: 0;
     padding: 0;
-    background-color: aqua;
-    height:70px;
+    background-color: rgb(255, 255, 255);
+    height:77px;
 }
 #Logo{
     margin-left: 30px;
@@ -23,13 +25,14 @@ header{
     margin-top:70px;
     margin-left: 300px;
     margin-right: 300px;
-    margin-bottom: 10px;
-    background-color: rgb(255, 238, 0);
+    margin-bottom: 5px;
+    background-color: rgb(255, 255, 255);
     height: 65px;
 
 }
 #Bot1{
-    background-color: rgb(10, 225, 233);
+    background-color: rgb(0, 174, 255);
+    border-color:  rgb(0, 174, 255);
     font-family: sans-serif;
     font-weight: bold;
     color: white;
@@ -41,7 +44,7 @@ header{
 
 }
 #Bot2{
-    background-color: rgba(218, 218, 218, 0.664);
+    background-color: rgba(255, 253, 253, 0.397);
     font-family: sans-serif;
     font-weight: bold;
     color: rgb(146, 146, 146);
@@ -50,26 +53,45 @@ header{
     margin: 20px;
     margin-left: 0px;
     margin-right:5px;
+    border-color: rgba(207, 207, 207, 0.397);
 }
 #secondcontainer{
     margin-left: 300px;
     margin-right: 300px;
-    height: 2px;
+    height: 900px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 2px;
 }
 h2{
         font-family: sans-serif;
+        margin-top: 0;
+        padding-left: 56px;
     }
 li{
     list-style-type: none;
     margin: 16px;
+    font-family: sans-serif;
+    font-weight: bold;
 }
 #secondcontainer span{
     border-radius: 16px;
     background-color: rgb(0, 174, 255);
     color: white;
     padding:8px;
+    font-size: 13px;
 }
-li [purple] {
+#secondcontainer li [target="purple"] {
     background-color: rgb(175, 88, 255);
 }
-    
+#secondcontainer li [target="greenlight"]{
+    background-color: rgb(108, 209, 108);
+}
+#secondcontainer li [target="orange"]{
+    background-color: rgb(255, 145, 2);
+}
+#secondcontainer li [target="pink"]{
+    background-color: rgb(245, 108, 227);
+}
+#secondcontainer li [target="green"]{
+    background-color: rgb(31, 156, 31);
+}
